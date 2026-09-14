@@ -72,5 +72,6 @@ Access the n8n dashboard in your browser at: `http://localhost:5678`
 ---
 
 ## 👤 Author
-* **GitHub:** [@your-username](https://github.com/Elieser1945)
-* **LinkedIn:** [Your Name](www.linkedin.com/in/elieser-pasaribu)
+* **GitHub:** [@Elieser1945](https://github.com/Elieser1945)
+* **LinkedIn:** [Elieser Pasaribu](https://www.linkedin.com/in/elieser-pasaribu)
+
