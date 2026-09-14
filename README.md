@@ -1,5 +1,4 @@
 
-
 # n8n Automated Quote Notification System 🚀
 
 An automated workflow built with **n8n** (hosted via **Docker**) that periodically fetches random quotes from a REST API and pushes formatted real-time notifications to a **Telegram Bot**.
@@ -64,6 +63,12 @@ Access the n8n dashboard in your browser at: `http://localhost:5678`
 ---
 
 ## 📷 Screenshots / Demo
+
+## 📷 Screenshots / Demo
+
+| n8n Workflow Canvas | Telegram Notification |
+| :---: | :---: |
+| ![n8n Workflow](assets/n8n-workflow.png) | ![Telegram Result](assets/telegram-result.png) |
 
 > *Add your screenshot of the n8n canvas and Telegram chat result here!*
 
