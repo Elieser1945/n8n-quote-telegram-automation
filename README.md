@@ -69,10 +69,8 @@ Access the n8n dashboard in your browser at: `http://localhost:5678`
 | ![n8n Workflow](assets/assets/n8n-workflow.png) | ![Telegram Result](assets/assets/telegram-result.jpeg) |
 
 
-> *Add your screenshot of the n8n canvas and Telegram chat result here!*
-
 ---
 
 ## 👤 Author
-* **GitHub:** [@your-username](https://github.com/your-username)
-* **LinkedIn:** [Your Name](https://linkedin.com/in/your-profile)
+* **GitHub:** [@your-username](https://github.com/Elieser1945)
+* **LinkedIn:** [Your Name](www.linkedin.com/in/elieser-pasaribu)
