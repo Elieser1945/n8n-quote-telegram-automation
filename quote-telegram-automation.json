@@ -1,0 +1,90 @@
+{
+  "name": "quote-telegram-automation",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "64fca410-41bc-49de-aee5-5228bfdcdc01",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "url": "https://dummyjson.com/quotes/random",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        224,
+        0
+      ],
+      "id": "f563eb06-e3a4-4c9e-90b9-2ffb07785e94",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "chatId": "6758281497",
+        "text": "={{ $json.quote }} -- {{ $json.author }}",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        448,
+        0
+      ],
+      "id": "93053d58-16b0-48ba-91a8-f118dd7ce563",
+      "name": "Send a text message",
+      "webhookId": "f484757e-a3a1-4612-84b5-1e538e8e9312",
+      "credentials": {
+        "telegramApi": {
+          "id": "KWXfNv0joxQ3sTXp",
+          "name": "Telegram account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Send a text message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "0564a0d3-14cc-49e4-bde5-0e48a2151b30",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "a661559858f0d422e7a080889f6bcaaf03d9e269ecdac1b2056daab4d52faca5"
+  },
+  "nodeGroups": [],
+  "id": "iZt4fULwMznA4sB0",
+  "tags": []
+}
