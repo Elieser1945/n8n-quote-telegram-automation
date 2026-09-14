@@ -62,12 +62,12 @@ Access the n8n dashboard in your browser at: `http://localhost:5678`
 
 ---
 
-
 ## 📷 Screenshots / Demo
 
 | n8n Workflow Canvas | Telegram Notification |
 | :---: | :---: |
-| ![n8n Workflow](assets/n8n-workflow.png) | ![Telegram Result](assets/telegram-result.png) |
+| ![n8n Workflow](assets/assets/n8n-workflow.png) | ![Telegram Result](assets/assets/telegram-result.jpeg) |
+
 
 > *Add your screenshot of the n8n canvas and Telegram chat result here!*
 
