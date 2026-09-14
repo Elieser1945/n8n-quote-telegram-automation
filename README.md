@@ -62,7 +62,6 @@ Access the n8n dashboard in your browser at: `http://localhost:5678`
 
 ---
 
-## 📷 Screenshots / Demo
 
 ## 📷 Screenshots / Demo
 
